@@ -1,0 +1,11 @@
+#init {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#participant-form {
+  height: 30px;
+  padding: 10px;
+}
