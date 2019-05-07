@@ -8,11 +8,11 @@ export default class Message extends Component {
         return (
             <div className="message" >
                 <div className="message-top">
-                    <span className="client-name">{this.props.name}</span>
-                    <span className="timestamp">{this.props.timestamp}</span>
+                    <span className="client-name">{this.props.message.name}</span>
+                    <span className="timestamp">{this.props.message.timestamp}</span>
                 </div>
                 <div className="message-text">
-                    {this.props.text}
+                    {this.props.message.text}
                 </div>
             </div>
         );
