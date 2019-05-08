@@ -100,7 +100,7 @@ class App extends Component {
         return (
             <div id="main">
                 <div id="title">
-                    Chat Tool
+                    <h1>Chat Tool</h1>
                 </div>
                 {this.state.init &&
                     <div id="box-init">
